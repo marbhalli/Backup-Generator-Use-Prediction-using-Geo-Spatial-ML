@@ -14,7 +14,7 @@ This repository contains the necessary scripts and notebooks to process geospati
 * **random_forest_model.ipynb**: The primary analytical pipeline that builds a Random Forest classifier to predict backup generator usage, performs variable inclusion proportion (VIP) analysis, and assesses feature correlation.
 
 ### Building Classification Pipeline
-Located in `residential_non_residential_building_classification_code/`, this module classifies structures based on the methodology established by Arruda et al. (2024).
+Located in `building_classification/`, this module classifies structures as residential/non-residential based on the methodology established by Arruda et al. (2024).
 
 * **main.ipynb**: The primary execution notebook for structural classification.
 * **map_buildings_original.py**: Implementation of the methodology using OpenStreetMap (OSM) building footprints and tags.
