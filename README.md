@@ -6,7 +6,7 @@ Natural disasters such as hurricanes can severely damage the electric grid, prod
 Our results suggest that post-storm backup generator use is systematically associated with local conditions and can be meaningfully predicted from the features included in our model. Most importantly, the prominence of the Social Vulnerability Index (SVI) and the proportion of the Black population among high-inclusion predictors points to a clear equity dimension in backup generator access. These findings underscore the need for targeted preparedness and resilience policies that prioritize communities facing structural disadvantages in energy security and disaster recovery.
 
 ## Code Directory Structure
-This repository contains the necessary scripts and notebooks to process geospatial environmental data, perform building classification, and execute predictive modeling.
+This repository contains the necessary scripts and notebooks to process geospatial environmental data, perform building classification, and execute predictive modeling. Other datasets mentioned in the report were manually downloaded from their respective websites.
 
 ### Core Data Processing & Modeling
 * **post_process_black_marble_data.ipynb**: Processes the NASA Black Marble (VNP46A2/VNP46A3) suite to extract nighttime light (NTL) sub-datasets from HDF5 format and convert them into georeferenced TIFF files.
